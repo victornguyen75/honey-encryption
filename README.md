@@ -1,10 +1,10 @@
 # Honey Encryption Script (Python)
-###### This program is for EDUCATIONAL PURPOSES
+## This program is for __EDUCATIONAL PURPOSES__
 This encryption algorithm displays seeming plausible output for every incorrect key input. It ultimately tricks the unauthorized user with decoy keys. In the following script, this code works with passwords, seeds, and secret messages. Assuming the scenario that the hacker has cracked a master vault of passwords, this program will show the "hacker" a list of manipulated passwords, also known as a list of sweetwords. Any one of these passwords could be bait or the real password. Given this list of passwords, the hacker can use any one of them. If the hacker inputs the wrong password, he will receive seemingly valid input. 
 
 Ideal applications to use this encryption algorithm include passwords and credit card numbers. Honey encryption is weak against instances in which two keys are needed, such as HTTP certification keys.
 
-Background information and inspiration: https://www.youtube.com/watch?v=DV0k0rQpEX4
+Background information and inspiration: *https://www.youtube.com/watch?v=DV0k0rQpEX4*
 
 This program utilizes:
 	1. user inputed password
