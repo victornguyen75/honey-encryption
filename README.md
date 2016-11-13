@@ -20,4 +20,4 @@ This program utilizes:
 8. a try/catch block to search for passwords that do not exist in the dictionary of sweetwords
 9. a query to prompt the user for another attempt
 
-!(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fi.kinja-img.com%2Fgawker-media%2Fimage%2Fupload%2Fs--jwt2QU6X--%2F19e29r03abr4ojpg.jpg&f=1)
+![](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fi.kinja-img.com%2Fgawker-media%2Fimage%2Fupload%2Fs--jwt2QU6X--%2F19e29r03abr4ojpg.jpg&f=1)
