@@ -7,15 +7,15 @@ Ideal applications to use this encryption algorithm include passwords and credit
 Background information and inspiration: https://www.youtube.com/watch?v=DV0k0rQpEX4
 
 This program utilizes:
-      - user inputed password
-      - user inputed secret message (preferably a U.S. state)
-      - a hardcoded dictionary of secret messages (in this program, these messages are U.S. states)
-      - a dictionary containing manipulated passwords (Sweetwords) in addition to the real password
-      - a dictionary containing seeds (Seed generator)
-          - seeds are simply pointers that point to the secret message
-      - the encryption algorithm: c = sk ^ sm    
-          - the cipher_text = seed value of the key XOR seed value of the message
-      -  the decrpytion algorithm: m = sk ^ c
-          - the message = seed value of the key XOR cipher_text
-      - a try/catch block to search for passwords that do not exist in the dictionary of sweetwords
-      - a query to prompt the user for another attempt
+	- user inputed password
+	- user inputed secret message (preferably a U.S. state)
+	- a hardcoded dictionary of secret messages (in this program, these messages are U.S. states)
+	- a dictionary containing manipulated passwords (Sweetwords) in addition to the real password
+	- a dictionary containing seeds (Seed generator)
+		- seeds are simply pointers that point to the secret message
+	- the encryption algorithm: c = sk ^ sm    
+		- the cipher_text = seed value of the key XOR seed value of the message
+	-  the decrpytion algorithm: m = sk ^ c
+		- the message = seed value of the key XOR cipher_text
+	- a try/catch block to search for passwords that do not exist in the dictionary of sweetwords
+	- a query to prompt the user for another attempt
