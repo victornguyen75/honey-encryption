@@ -7,8 +7,8 @@ Ideal applications to use this encryption algorithm include passwords and credit
 Background information and inspiration: *https://www.youtube.com/watch?v=DV0k0rQpEX4*
 
 This program utilizes:
-* user inputed password
-* user inputed secret message (preferably a U.S. state)
+* a user inputed password
+* a user inputed secret message (preferably a U.S. state)
 * a hardcoded dictionary of secret messages (in this program, these messages are U.S. states)
 * a dictionary containing manipulated passwords (Sweetwords) in addition to the real password
 * a dictionary containing seeds (Seed generator)
