@@ -13,9 +13,11 @@ This program utilizes:
 	4. a dictionary containing manipulated passwords (Sweetwords) in addition to the real password
 	5. a dictionary containing seeds (Seed generator)
 		I. seeds are simply pointers that point to the secret message
-	6. the encryption algorithm: c = sk ^ sm    
+	6. the encryption algorithm: `c = sk ^ sm`    
 		I. the cipher_text = seed value of the key XOR seed value of the message
-	7. the decrpytion algorithm: m = sk ^ c
+	7. the decrpytion algorithm: `m = sk ^ c`
 		I. the message = seed value of the key XOR cipher_text
 	8. a try/catch block to search for passwords that do not exist in the dictionary of sweetwords
 	9. a query to prompt the user for another attempt
+
+![Honeycombs](https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fthreatpost.com%2Ffiles%2F2014%2F01%2Fhoneycomb.jpg&f=1)
