@@ -117,7 +117,7 @@ while True:
         # Check seeds
         pprint(seedsToMessages[m])                 
                                                 
-        if keySeed != trueSeed:                 # Honey checker
+        if m != trueSeed:                       # Honey checker
             print("Intruder! SOUNDING ALARM!")  # If seeds don’t match, this is an intruder
         
     except KeyError:
