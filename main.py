@@ -110,12 +110,16 @@ while True:
     # Prompt the user to crack this password
     try:
         query = input("Enter a password to crack: ")
-        keySeed = passwordsToSeeds[query]
+        keySeed = passwordsToSeeds[query]           
         # DECRYPTION: m = sk XOR c
         m = keySeed ^ cipher                        # ^ == XOR
 
         # Check seeds
-        pprint(seedsToMessages[m])
+        pprint(seedsToMessages[m])                 
+                                                
+        if keySeed != trueSeed:                 # Honey checker
+            print("Intruder! SOUNDING ALARM!")  # If seeds don’t match, this is an intruder
+        
     except KeyError:
         print("Password not found. ")
 
