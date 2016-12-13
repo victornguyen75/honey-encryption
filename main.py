@@ -12,8 +12,8 @@ Current issues:
 -more modularized code is needed
 -debugging at line 133 is needed
 
-Created by:   Victor Nguyen
-Updated:      12/12/2016
+Created by:    Victor Nguyen
+Updated on:    12/12/2016
 '''
 import random
 from pprint import pprint
