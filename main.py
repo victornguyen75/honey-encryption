@@ -15,7 +15,7 @@ Current issues:
 Created by:    Victor Nguyen
 Updated on:    12/12/2016
 '''
-import random
+from random import *
 from pprint import pprint
 
 # Function prototyping
